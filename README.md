@@ -1,4 +1,4 @@
-#Cafe Website Example
+#Flat Website Example
 
 Includes a clean layout :
 
