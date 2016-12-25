@@ -13,5 +13,5 @@ overall better performance
 
 Usage
 ```
-$ [sudo] gem install terminal-notifier
+$ git clone https://github.com/Littlenate2114/littleflatwebsitetemplate.git
 ```
