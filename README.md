@@ -12,5 +12,6 @@ less scroll lag
 overall better performance
 
 Usage
-
+<pre>
 $git clone https://github.com/Littlenate2114/littleflatwebsitetemplate.git
+<pre>
