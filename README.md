@@ -11,7 +11,7 @@ better load times
 less scroll lag
 overall better performance
 
-Usage
+Clone
 ```
 $ git clone https://github.com/Littlenate2114/littleflatwebsitetemplate.git
 ```
