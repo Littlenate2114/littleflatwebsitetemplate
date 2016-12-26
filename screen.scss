@@ -13,6 +13,8 @@ src: url("CRC35.otf") format("opentype");
 
 body {
   background-color: white;
+  letter-spacing: 0;
+  margin: 0;
 }
 
   .mainbody {
@@ -84,3 +86,15 @@ body {
     background-color: black;
     color: white;
   }
+
+.tras {
+  background-color: blue;
+}
+
+button {
+  outline-width: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
