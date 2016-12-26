@@ -1,5 +1,8 @@
+
 $(function() {
-  $(".thisisabtn").click(function(){
-      $("body").addClass("tras");
+  $("#fade").click(function(){
+    $("#thep").animate({
+          opacity: '0'
+        });
     });
 });
