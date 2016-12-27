@@ -41,13 +41,13 @@ body {
 
   .container a {
     background-color: none;
-    border: 2px solid white;
+    border: 2px solid #fdca32;
     padding: 15px;
-    color:white;
+    color:#fdca32;
   }
 
   .container a:hover {
-    background-color: white;
+    background-color: #fdca32;
     color: black;
   }
 
@@ -73,19 +73,21 @@ body {
   }
 
   .about {
-    width: 50%;
-    text-align: justify;
-
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 45px;
   }
 
-  .about a {
-    color: black;
+  .about h1 {
+    text-align: left;
   }
 
-  .about a:hover {
-    background-color: black;
-    color: white;
+  .about p {
+    text-align: left;
   }
+
 
 .tras {
   background-color: blue;
@@ -97,4 +99,11 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+.firstsec {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+  background-color: #fdca32;
 }
