@@ -4,6 +4,12 @@
 src: url("CRC35.otf") format("opentype");
 }
 
+@font-face {
+  font-family: chinesetakeaway;
+src: url("Chinese-Takeaway.ttf") format("truetype");
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -37,13 +43,21 @@ body {
     height: 150px;
     color: white;
     letter-spacing: 3px;
+
+    h1{
+      font-family: chinesetakeaway;
+    }
+
   }
+
+
 
   .container a {
     background-color: none;
     border: 2px solid #fdca32;
     padding: 15px;
     color:#fdca32;
+    font-family: chinesetakeaway;
   }
 
   .container a:hover {
@@ -72,38 +86,33 @@ body {
     padding: 10px;
   }
 
-  .about {
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    padding-bottom: 45px;
-  }
 
-  .about h1 {
-    text-align: left;
-  }
-
-  .about p {
-    text-align: left;
-  }
-
-
-.tras {
-  background-color: blue;
-}
-
-button {
-  outline-width: 0;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-.firstsec {
+.content {
   width: 100%;
-  height: auto;
-  padding-bottom: 50px;
-  background-color: #fdca32;
+  height: 500px;
+  position: relative;
+  display: flex;
+}
+
+.right {
+  margin-left: auto;
+  margin-right: auto;
+  height: 350px;
+  width: 400px;
+  text-align: left;
+  margin-top: 75px;
+    p {
+      margin-bottom: 20px;
+    }
+}
+
+.left {
+  float: left;
+  width: 400px;
+  height: 500px;
+  background-color: tomato;
+  background-image: url('images/sidebar-img.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
